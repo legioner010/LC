@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+
+>
+
+    <TextView
+            android:id="@+id/edit1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/to" />
+
+    <EditText
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:id="@+id/edit2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/message" />
+
+    <Button
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:id="@+id/button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttomSend" />
+
+
+</GridLayout>
